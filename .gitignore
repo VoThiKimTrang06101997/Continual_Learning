@@ -43,12 +43,13 @@ share/python-wheels/
 *.err
 
 # Project-specific folders
-NSGP-REPRE/
-NSGP-REPRE/*
+# NSGP-REPRE/
+# NSGP-REPRE/*
 
 # Dataset và large files (nếu không muốn commit)
 data/
-datasets/
+dataset/
+pretrained_checkpoint/
 *.zip
 *.tar
 *.tar.gz
